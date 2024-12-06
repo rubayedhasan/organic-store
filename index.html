@@ -41,7 +41,7 @@
     <!-- header section  -->
     <header>
       <!-- nav section  -->
-      <nav class="mx-auto w-11/12 pt-5">
+      <nav class="mx-auto w-11/12 py-5">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <a class="text-xl">
@@ -90,7 +90,7 @@
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content rounded-box bg-accent/5 right-0 z-[1] mt-3 w-52 p-2 shadow"
+                class="menu menu-sm dropdown-content rounded-box bg-base-100 right-0 z-[1] mt-3 w-52 p-2 shadow"
               >
                 <li>
                   <a class="text-secondary font-semibold">Home</a>
@@ -115,7 +115,51 @@
     </header>
 
     <!-- main section  -->
-    <main></main>
+    <main>
+      <!-- banner section -->
+      <section
+        id="banner"
+        class="bg-[url('./images/leaf01.png')] bg-contain bg-right-bottom bg-no-repeat"
+      >
+        <div class="bg-body h-full w-full bg-opacity-90">
+          <div
+            class="mx-auto flex w-11/12 flex-col items-center justify-center gap-10 py-8 sm:py-28 md:flex-row lg:w-9/12"
+          >
+            <div class="flex-1">
+              <img
+                src="./images/bannerbg.png"
+                alt="Banner image"
+                class="w-full"
+              />
+            </div>
+            <div class="flex-1 text-center sm:text-left">
+              <h5 class="text-secondary mb-3 text-lg font-bold sm:text-xl">
+                Best Quality Products
+              </h5>
+              <h1
+                class="text-4xl font-extrabold leading-tight lg:text-[2.6rem] xl:text-6xl"
+              >
+                Join The Organic Movement!
+              </h1>
+              <p class="my-5 font-medium text-neutral-500 sm:text-lg">
+                "Embrace healthier living with fresh, sustainably grown
+                products. Join the Organic Movement today for a cleaner, greener
+                tomorrow!"
+              </p>
+
+              <!-- shopping button  -->
+              <button
+                type="button"
+                class="bg-primary hover:bg-accent rounded-md px-12 py-4 font-bold text-white duration-300 ease-in-out sm:text-lg"
+              >
+                <i class="fa-solid fa-cart-shopping mr-1.5"></i>
+                Shop Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- footer section  -->
     <footer></footer>
